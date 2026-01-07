@@ -194,3 +194,117 @@ margin-top: 40px;
         height: 103px !important;
     }
 }
+/* Demo */
+
+.demo-text {
+margin-top: 33px;
+margin-bottom: 53px;
+}
+
+.demo-wrapper {
+    position: relative;
+    background: linear-gradient(180deg, #2edbc1 0%, #186e6b 100%);
+    border-radius: 50px;
+        height: 813px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ===== КНОПКА ===== */
+
+.demo-btn {
+    z-index: 10;
+    display: flex;
+    cursor: pointer;
+background: #00ff15;
+width: 335px;
+    height: 78px;
+    margin-top: 30px;
+    font-family: "Fjalla One", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.demo-img {
+    display: block;
+    width: 227px;
+    height: 98px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===== IFRAME ===== */
+
+.iframe-wrapper {
+    position: absolute;
+    top: -1px;
+    left: 32%;
+    transform: translateX(-48%);
+    width: 68%;
+    height: 54%;
+    z-index: 20;
+
+    /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+    pointer-events: none;
+}
+
+#gameIframe {
+    width: 149%;
+    height: 187%;
+    border: none;
+    display: none;
+    background: #000;
+    border-radius: 44px;
+}
+
+/* АКТИВНИЙ СТАН */
+.iframe-wrapper.active {
+    pointer-events: auto;
+}
+
+#gameIframe.active {
+    display: block;
+}
+
+/* ===== КНОПКА ЗАКРИТТЯ ===== */
+
+#closeIframeBtn {
+    position: absolute;
+    top: 20px;
+    right: -80px;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    display: none;
+
+    z-index: 9999;
+    /* 🔥 НАД iframe */
+    pointer-events: auto;
+}
+
+#closeIframeBtn.active {
+    display: block;
+}
+@media only screen and (min-width: 1440px) {
+   .demo-section{
+    background-image: url("/img/demo/game.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+   }
+    .demo-text{
+    width: 603px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 103px;
+   }
+}
