@@ -1,0 +1,71 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+
+.background {
+font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+}
+
+.privacy-title {
+font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffea00;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+
+    .privacy-title {
+        margin-top: 120px;
+    }
+
+}
