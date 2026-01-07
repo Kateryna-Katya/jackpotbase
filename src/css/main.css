@@ -308,3 +308,44 @@ width: 335px;
     margin-bottom: 103px;
    }
 }
+/* HOW IT WORKS */
+.how-section{
+    background-color: #fff;
+}
+.how-title{
+    color: #790bff;
+}
+.how-list{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.how-item{
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+       padding: 10px 10px;
+    border-radius: 50px;
+        width: 262px;
+        height: 247px;
+        background: #000;
+}
+.how-list-title{
+    font-family: "Fjalla One", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffea00;
+}
+@media only screen and (min-width: 1440px) {
+  .how-list{
+    margin-top: 24px;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
