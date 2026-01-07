@@ -42,7 +42,7 @@ function initSimilarSwiper() {
   if (window.innerWidth < DESKTOP_WIDTH && !similarSwiper) {
     similarSwiper = new Swiper('.similar-swiper', {
       slidesPerView: 1,
-      spaceBetween: 16,
+      spaceBetween: 20,
       speed: 600,
       loop: true,
 

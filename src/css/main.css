@@ -182,8 +182,8 @@ margin-top: 40px;
     .visual-swiper{
         margin-top: 62px;
     }
-        .visual-swiper .swiper-wrapper,
-            .similar-swiper .swiper-wrapper {
+        .visual-swiper .swiper-wrapper
+{
         display: flex;
         gap: 96px;
         justify-content: center;
@@ -347,5 +347,49 @@ width: 335px;
     gap: 24px;
     flex-direction: row;
     justify-content: center;
+  }
+}
+/* SIMILAR GAMES */
+.similar-section{
+    background-image: url("/img/similar/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+}
+.similar-container{
+    padding: 60px 20px 330px;
+}
+.similar-text{
+    margin-top: 24px;
+    margin-bottom: 62px;
+    color: #790bff;
+}
+.similar-img{
+    width: 100%;
+}
+@media only screen and (min-width: 1440px) {
+.similar-swiper .swiper-wrapper {
+        display: flex;
+            gap: 96px;
+            justify-content: center;
+  }
+  .similar-swiper-slide{
+    width: 300px !important;
+        height: 650px !important;
+  }
+  .similar-img{
+    width: 300px;
+        height: 650px;
+  }
+  .similar-container{
+    padding-left: 363px;
+    padding-right: 363px;
+    padding-bottom: 364px;
+  }
+  .similar-section{
+    background-image: url("/img/similar/desk.png"), url("/img/similar/bg.png");
+    background-position: bottom center, top -200px center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
   }
 }
